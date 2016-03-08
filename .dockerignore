@@ -1,0 +1,9 @@
+Dockerfile
+.dockerignore
+docker-compose.*
+
+.DS_Store
+.editorconfig
+.git
+.gitignore
+.idea
