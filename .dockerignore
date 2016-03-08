@@ -1,6 +1,7 @@
 Dockerfile
 .dockerignore
 docker-compose.*
+LICENSE.txt
 
 .DS_Store
 .editorconfig
