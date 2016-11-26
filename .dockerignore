@@ -1,11 +1,7 @@
 Dockerfile
 .dockerignore
-docker-compose.*
 LICENSE.txt
 README.md
 
-.DS_Store
-.editorconfig
 .git
 .gitignore
-.idea
