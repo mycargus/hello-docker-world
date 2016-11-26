@@ -14,4 +14,4 @@ ENV RACK_ENV=production
 
 EXPOSE 80
 
-CMD ruby myapp.rb -p 80
+CMD ruby hello.rb -p 80
