@@ -1,7 +1,9 @@
-Dockerfile
 .dockerignore
+.git
+.gitignore
+
+Dockerfile
 LICENSE.txt
 README.md
 
-.git
-.gitignore
+scripts/ci/
