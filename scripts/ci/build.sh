@@ -16,8 +16,6 @@ function cleanup()
   else
     echo ":: Build Failed :("
   fi
-
-  exit ${exit_code}
 }
 
 trap cleanup INT TERM EXIT
