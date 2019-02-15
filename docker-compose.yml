@@ -1,0 +1,13 @@
+---
+version: "3.7"
+services:
+  web:
+    build: .
+    ports:
+      - "8080:80"
+
+  testrunner:
+    build: .
+    command: ./scripts/curl_test.sh
+    depends_on:
+      - web
