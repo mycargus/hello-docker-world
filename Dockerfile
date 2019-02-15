@@ -1,4 +1,4 @@
-FROM instructure/ruby-passenger:2.3
+FROM instructure/ruby-passenger:2.6
 
 USER root
 
@@ -10,8 +10,7 @@ USER docker
 RUN gem install sinatra --no-ri --no-rdoc
 
 USER root
-COPY . $APP_HOME
-RUN chown -R docker:docker $APP_HOME
+COPY --chown=docker:docker . ./
 
 ENV RACK_ENV=production
 
