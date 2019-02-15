@@ -2,6 +2,11 @@
 services:
   - docker
 
+addons:
+  apt:
+    packages:
+      - docker-ce
+
 install: true
 
 script: ./scripts/ci/build.sh
