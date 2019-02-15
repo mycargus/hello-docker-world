@@ -1,0 +1,12 @@
+---
+services:
+  - docker
+
+install: true
+
+script: ./scripts/ci/build.sh
+
+after_success:
+  script: ./scripts/ci/docker_push.sh
+  on:
+    branch: master
