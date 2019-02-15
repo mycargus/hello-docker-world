@@ -2,7 +2,7 @@
 
 # Verify the web app is serving requests
 
-set -e
+set -ev
 
 # wait for web container
 sleep 5

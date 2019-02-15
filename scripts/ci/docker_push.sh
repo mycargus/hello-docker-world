@@ -2,7 +2,7 @@
 
 # Build and push the docker image to docker hub registry
 
-set -e
+set -ev
 
 docker build -t mycargus/hello_docker_world:latest .
 
