@@ -20,7 +20,8 @@ install: true
 
 script: ./scripts/ci/build.sh
 
-after_success:
+deploy:
+  provider: script
   script: ./scripts/ci/docker_push.sh
   on:
     branch: master
