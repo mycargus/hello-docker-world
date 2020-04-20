@@ -2,6 +2,7 @@ require 'sinatra'
 
 get '/' do
   "<html>
+    <title>Hello, Docker World!</title>
     <body>
       <div style=\"
           position: absolute;
@@ -26,4 +27,8 @@ get '/' do
       </div>
     </body>
   </html>"
+end
+
+get '/api/hello' do
+  'Hello, Docker World! ヾ(＾∇＾)'
 end
