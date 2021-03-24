@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/mycargus/hello_docker_world.svg?branch=master)](https://travis-ci.com/mycargus/hello_docker_world)
+[![Build Status](https://travis-ci.com/mycargus/hello_docker_world.svg?branch=master)](https://travis-ci.com/mycargus/hello_docker_world)
 
 # Hello Docker World!
 
